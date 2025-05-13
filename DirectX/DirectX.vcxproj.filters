@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2ac56715-d8e3-4059-9b12-26f0a925bb9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{bd68c14a-2438-4511-8d9c-baabe2a770fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{ab8b9ca9-4e74-496c-92b4-fd7bb4ed7460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5c86d34a-f9a9-41d9-8099-de23766440bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Mesh">
+      <UniqueIdentifier>{2e03741a-c4bb-4df9-adc7-5d7e4c55830d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Material">
+      <UniqueIdentifier>{6586f7bc-555f-4f38-b815-92e2ac459de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Node">
+      <UniqueIdentifier>{cdd43a33-9ab1-449d-87d2-c17c8e982881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Mesh\Vertex">
+      <UniqueIdentifier>{f3b66196-456a-4d6c-b6eb-7f5f038f8ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Animation">
+      <UniqueIdentifier>{26c8a4b0-d19c-4240-a2e8-ff916e14c5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Mesh\Bone">
+      <UniqueIdentifier>{76b25a7e-5c52-450e-be9f-1f3080d27061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{d648e77f-3d95-48a0-88d8-3d469638ed87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\FbxLoader">
+      <UniqueIdentifier>{1b999462-8369-4699-b097-58d0dfb5fc40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{3ec4ffe8-9b41-4004-8043-e4ba1fd50f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Renderer">
+      <UniqueIdentifier>{4202230a-2ac9-411f-9b47-7d5c598197b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Timer">
+      <UniqueIdentifier>{60317997-6144-48d2-83bc-3079927e310e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Manager\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Model\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>Resource\FbxLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Model\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Model\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Model\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Manager\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Model\Mesh\Bone</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Model\Mesh\Vertex</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DirectX.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DirectX.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Manager\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Model\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>Resource\FbxLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Model\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Model\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Model\Node</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Manager\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Model\Mesh\Bone</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Model\Mesh\Vertex</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Output\Shader\BasicPixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Output\Shader\BasicVertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Output\Shader\Shared.fxh">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
